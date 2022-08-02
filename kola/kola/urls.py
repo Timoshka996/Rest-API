@@ -8,12 +8,3 @@ urlpatterns = [
     path('api/v1/', include('dodge.urls')),
     path('api/v1/user/', include('djoser.urls.authtoken')),
 ]
-
-
-
-
-
-
-
-
-
