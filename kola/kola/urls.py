@@ -9,3 +9,4 @@ urlpatterns = [
     path('api/v1/user/', include('djoser.urls.authtoken')),
 ]
 
+
