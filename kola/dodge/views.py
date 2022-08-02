@@ -15,3 +15,4 @@ class ListCarView(generics.ListAPIView):
     queryset = Car.objects.all()
     serializer_class = CarDetailSerializer
     permission_classes = [permissions.IsAuthenticated|permissions.IsAdminUser]
+    
